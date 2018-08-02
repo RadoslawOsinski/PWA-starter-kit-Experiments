@@ -1,0 +1,32 @@
+//@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css);
+
+//https://material.io/tools/color
+//$mdc-theme-primary: #fcb8ab;
+//$mdc-theme-secondary: #feeae6;
+//$mdc-theme-on-primary: #442b2d;
+//$mdc-theme-on-secondary: #442b2d;
+
+@import '../../node_modules/@material/top-app-bar/mdc-top-app-bar';
+@import '../../node_modules/@material/drawer/mdc-drawer';
+@import '../../node_modules/@material/button/mdc-button';
+@import '../../node_modules/@material/textfield/mdc-text-field';
+@import "../../node_modules/@material/textfield/helper-text/mdc-text-field-helper-text";
+//@import '../../node_modules/@material/';
+@import '../../node_modules/@material/list/mdc-list';
+@import '../../node_modules/@material/menu/mdc-menu';
+@import '../../node_modules/@material/chips/mdc-chips';
+
+//@font-face {
+//    font-family: 'Pacifico';
+//    font-style: normal;
+//    font-weight: 400;
+//    src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v12/Q_Z9mv4hySLTMoMjnk_rCXYhjbSpvc47ee6xR_80Hnw.woff2) format('woff2');
+//}
+//body {
+//    margin: 0;
+//    /* This is a font-stack that tries to use the system-default sans-serifs first */
+//    font-family: Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+//    line-height: 1.5;
+//    min-height: 100vh;
+//    -webkit-font-smoothing: antialiased;
+//}
