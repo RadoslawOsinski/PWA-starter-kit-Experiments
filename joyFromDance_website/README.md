@@ -20,3 +20,8 @@ Lessons learned during experiments:
 * ES 6 imports are "must have" in a new project. "RequireJs" is no longer necessary.
 * jQuery is useless today. When choosing additional tools for JS try to avoid dependencies to jQuery. Coding with plain browser standards is easier to maintain.
 * Still I don't know how to write pretty gui and layouts. I am doomed for cooperation with frontend developers.
+* It is easier to parametrize JSP websites. Parametrization of static JS files occurs on build time.
+* Gradle builds are much more reliable than node/npm build. They are more standardised.
+* It is easier to log events on frontend - if needed. 
+* JSP website changes requires full application deploy. That is huge drawback in comparison to JS live reload or simple "refresh" in browser.
+* Building PWA website differs a lot from building angular (1,2,3,4) or react application. Each JS framework has his own opinionated packaging and deploying solution. Which is hard to change. 
